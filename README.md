@@ -1,3 +1,9 @@
+# [Jetpack 4.3 update]
+
+Added support for OpenCV 4 that comes with Jetpack 4.3.
+
+You need to build OpenCV with the opencv-contrib modules enabed. [Here is a script to install OpenCV 4 with opencv-contrib enabled on Jetson board](https://github.com/AastaNV/JEP/blob/master/script/install_opencv4.1.1_Jetson.sh).
+
 # Dataflow ORB-SLAM2
 
 **Authors**: Stefano Aldegheri, based upon [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/) ([ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2))

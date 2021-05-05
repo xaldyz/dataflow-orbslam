@@ -24,6 +24,9 @@
 #include <vector>
 #include <cmath>
 #include <opencv2/core/core.hpp>
+#ifdef OPENCV4
+#include <opencv2/core/core_c.h>
+#endif
 
 #include "KeyFrame.h"
 #include "ORBmatcher.h"
